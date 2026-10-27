@@ -1,0 +1,37 @@
+{
+  "name": "mysql-backup",
+  "version": "0.1.0",
+  "description": "Back up and restore MySQL or MariaDB to local files and S3-compatible storage, with retention and checksums",
+  "bin": {
+    "mysql-backup": "mysql-backup.sh"
+  },
+  "files": [
+    "mysql-backup.sh"
+  ],
+  "scripts": {
+    "test": "bash test/run.sh"
+  },
+  "keywords": [
+    "mysql",
+    "mariadb",
+    "backup",
+    "mysqldump",
+    "s3",
+    "r2",
+    "cron",
+    "cli",
+    "laravel"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ym-scripts/mysql-backup.git"
+  },
+  "homepage": "https://github.com/ym-scripts/mysql-backup#readme",
+  "bugs": "https://github.com/ym-scripts/mysql-backup/issues",
+  "author": {
+    "name": "Aghogho Meyoron",
+    "email": "youngmayor.dev@gmail.com",
+    "url": "https://youngmayor.mlabs.ng"
+  },
+  "license": "MIT"
+}
